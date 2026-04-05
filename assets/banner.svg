@@ -1,6 +1,6 @@
-<svg width="800" height="240" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="800" y2="240" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="800" y2="200" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6a11cb"/>
       <stop offset="1" stop-color="#2575fc"/>
     </linearGradient>
@@ -44,7 +44,7 @@
   </defs>
   
   <!-- Wavy Background Shape -->
-  <path d="M0 0H800V180C700 200 600 160 500 180C400 200 300 160 200 180C100 200 0 160 0 180V0Z" fill="url(#paint0_linear_1_2)"/>
+  <path d="M0 0H800V150C700 170 600 130 500 150C400 170 300 130 200 150C100 170 0 130 0 150V0Z" fill="url(#paint0_linear_1_2)"/>
   
   <!-- Content -->
   <g dominant-baseline="middle" text-anchor="middle">
@@ -52,16 +52,16 @@
     <text x="50%" y="65%" class="subtitle">Designer | Researcher | Builder</text>
   </g>
   
-  <!-- Animated Waves Over the Bottom Edge -->
+  <!-- Animated Waves (Now properly clipped to the background edge) -->
   <g class="wave3" opacity="0.3">
-    <path d="M0 170C200 150 400 190 600 170C800 150 1000 190 1200 170C1400 150 1600 190 1600 170V240H0V170Z" fill="white"/>
+    <path d="M0 140C200 120 400 160 600 140C800 120 1000 160 1200 140C1400 120 1600 160 1600 140V180C1400 160 1200 200 1000 180C800 160 600 200 400 180C200 160 0 200 0 180V140Z" fill="white"/>
   </g>
   
   <g class="wave2" opacity="0.2">
-    <path d="M0 180C200 200 400 160 600 180C800 200 1000 160 1200 180C1400 200 1600 160 1600 180V240H0V180Z" fill="white"/>
+    <path d="M0 150C200 170 400 130 600 150C800 170 1000 130 1200 150C1400 170 1600 130 1600 150V190C1400 170 1200 210 1000 190C800 170 600 210 400 190C200 170 0 210 0 190V150Z" fill="white"/>
   </g>
   
   <g class="wave" opacity="0.1">
-    <path d="M0 190C200 170 400 210 600 190C800 170 1000 210 1200 190C1400 170 1600 210 1600 190V240H0V190Z" fill="white"/>
+    <path d="M0 160C200 140 400 180 600 160C800 140 1000 180 1200 160C1400 140 1600 180 1600 160V200C1400 180 1200 220 1000 200C800 180 600 220 400 200C200 180 0 220 0 200V160Z" fill="white"/>
   </g>
 </svg>
