@@ -5,7 +5,7 @@
   <br/>
 
   <!-- Socials -->
-  <a href="https://www.linkedin.com/in/pragdishwar-a-169074329/" target="_blank">
+  <a href="https://www.linkedin.com/in/pragdishwara/" target="_blank">
     <img src="https://img.shields.io/badge/LinkedIn-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn">
   </a>
   <a href="mailto:pragdishwar@gmail.com">
