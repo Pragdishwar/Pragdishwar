@@ -29,7 +29,7 @@
 
 | | |
 | :--- | :--- |
-| **[Earn2Equity](https://github.com/Pragdishwar/earn2equity)** <br/> _Fintech Equity Tracker_ <br/> 🛠️ `React` `Supabase` `Tailwind` | **[Vision-AWD](https://github.com/Pragdishwar/Vision-AWD)** <br/> _IoT Irrigation System_ <br/> 🛠️ `C++` `Python` `ESP32-CAM` |
+| **[Earn2Equity](https://github.com/Pragdishwar/earn2equity)** <br/> _Fintech Equity Tracker_ <br/> 🛠️ `React` `Tailwind` | **[Vision-AWD](https://github.com/Pragdishwar/Vision-AWD)** <br/> _IoT Irrigation System_ <br/> 🛠️ `C++` `Python` `ESP32-CAM` |
 | **[RouteMonk](https://github.com/Pragdishwar/RouteMonk)** <br/> _Logistics Optimizer_ <br/> 🛠️ `FastAPI` `React` `Mapbox` | **[Borderland Arena](https://github.com/Pragdishwar/borderland-arena)** <br/> _Gaming Live Dashboard_ <br/> 🛠️ `React` `WebSocket` `CSS3` |
 
 ---
@@ -71,7 +71,11 @@
 
 <div align="center">
   <h2>🐍 Contribution Snake</h2>
-  <img src="https://raw.githubusercontent.com/Pragdishwar/Pragdishwar/output/github-contribution-grid-snake-dark.svg" alt="Snake" width="800">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/Pragdishwar/Pragdishwar/output/github-contribution-grid-snake-dark.svg">
+    <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/Pragdishwar/Pragdishwar/output/github-contribution-grid-snake.svg">
+    <img alt="Snake" src="https://raw.githubusercontent.com/Pragdishwar/Pragdishwar/output/github-contribution-grid-snake.svg" width="800">
+  </picture>
 </div>
 
 <hr/>
