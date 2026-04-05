@@ -33,14 +33,15 @@
 
 <div align="center">
   <h2>📊 Activity Dashboard</h2>
-  <img src="https://github-readme-stats.vercel.app/api?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" alt="Main Stats" width="400">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&layout=compact" alt="Top Langs" width="300">
-  <br/>
-  <img src="https://nirzak-streak-stats.vercel.app/?user=Pragdishwar&theme=radical&hide_border=true" alt="Streak Stats">
-  <br/>
-  <img src="https://github-profile-trophy.vercel.app/?username=Pragdishwar&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Trophies">
-  <br/><br/>
-  <img src="https://github-contributor-stats.vercel.app/api?username=Pragdishwar&limit=5&theme=radical&combine_all_yearly_contributions=true" alt="Top Contributions" width="400">
+
+| | |
+| :---: | :---: |
+| <img src="https://github-readme-stats.vercel.app/api?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" width="400"> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&layout=compact" width="300"> |
+| <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pragdishwar&theme=radical&hide_border=true" width="400"> | <img src="https://github-profile-trophy.vercel.app/?username=Pragdishwar&theme=radical&no-frame=false&no-bg=true" width="300"> |
+
+<br/>
+<img src="https://github-contributor-stats.vercel.app/api?username=Pragdishwar&limit=5&theme=radical&combine_all_yearly_contributions=true" width="700">
+
 </div>
 
 <hr/>
