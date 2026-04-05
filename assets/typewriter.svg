@@ -4,26 +4,34 @@
       .text-item {
         font-family: 'Courier New', Courier, monospace;
         font-weight: 700;
-        font-size: 24px;
+        font-size: 22px;
         fill: #2575fc;
-        opacity: 0;
-        display: none;
-        animation: type_loop 12s infinite;
+        visibility: hidden;
+        animation: typewriter_reveal 12s infinite steps(40);
       }
       
-      .text-item:nth-child(1) { animation-delay: 0s; display: block; }
-      .text-item:nth-child(2) { animation-delay: 3s; display: block; }
-      .text-item:nth-child(3) { animation-delay: 6s; display: block; }
-      .text-item:nth-child(4) { animation-delay: 9s; display: block; }
+      /* Each line typed over 3 seconds */
+      .text-item:nth-child(1) { animation-delay: 0s; }
+      .text-item:nth-child(2) { animation-delay: 3s; }
+      .text-item:nth-child(3) { animation-delay: 6s; }
+      .text-item:nth-child(4) { animation-delay: 9s; }
       
-      @keyframes type_loop {
-        0%, 20% { opacity: 1; visibility: visible; }
-        24.9%, 100% { opacity: 0; visibility: hidden; }
+      @keyframes typewriter_reveal {
+        0% { visibility: visible; clip-path: inset(0 100% 0 0); }
+        15%, 80% { visibility: visible; clip-path: inset(0 0 0 0); }
+        85%, 100% { visibility: hidden; clip-path: inset(0 0 0 0); }
       }
       
       .cursor {
-        animation: blink 0.7s infinite;
         fill: #2575fc;
+        animation: cursor_move 3s infinite steps(40), blink 0.7s infinite;
+      }
+      
+      /* Cursor timing matches text reveal */
+      @keyframes cursor_move {
+        0% { transform: translateX(-180px); }
+        15%, 80% { transform: translateX(180px); }
+        85%, 100% { transform: translateX(-180px); opacity: 0; }
       }
       
       @keyframes blink {
@@ -35,11 +43,13 @@
   
   <rect width="600" height="40" fill="transparent"/>
   
-  <text x="50%" y="25" dominant-baseline="middle" text-anchor="middle" class="text-item">Fintech Builder | Earn2Equity</text>
-  <text x="50%" y="25" dominant-baseline="middle" text-anchor="middle" class="text-item">IoT Architect | Vision-AWD</text>
-  <text x="50%" y="25" dominant-baseline="middle" text-anchor="middle" class="text-item">Full-Stack | React &amp; Supabase</text>
-  <text x="50%" y="25" dominant-baseline="middle" text-anchor="middle" class="text-item">Designer | Borderland Arena</text>
-  
-  <!-- Cursor (Optional, better if anchored to text end but fixed for simplicity) -->
-  <!-- <rect x="300" y="10" width="2" height="24" class="cursor"/> -->
+  <g transform="translate(300, 20)">
+    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">Fintech Builder | Earn2Equity</text>
+    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">IoT Architect | Vision-AWD</text>
+    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">Full-Stack | React &amp; Supabase</text>
+    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">Designer | Borderland Arena</text>
+    
+    <!-- Animated Cursor -->
+    <rect x="0" y="-12" width="3" height="24" class="cursor"/>
+  </g>
 </svg>

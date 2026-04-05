@@ -36,11 +36,8 @@
 
 | | |
 | :---: | :---: |
-| <img src="https://github-readme-stats.vercel.app/api?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" width="400"> | <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&layout=compact" width="300"> |
-| <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pragdishwar&theme=radical&hide_border=true" width="400"> | <img src="https://github-profile-trophy.vercel.app/?username=Pragdishwar&theme=radical&no-frame=false&no-bg=true" width="300"> |
-
-<br/>
-<img src="https://github-contributor-stats.vercel.app/api?username=Pragdishwar&limit=5&theme=radical&combine_all_yearly_contributions=true" width="700">
+| <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" width="400"> | <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&layout=compact" width="300"> |
+| <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pragdishwar&theme=radical&hide_border=true" width="400"> | <img src="https://komarev.com/ghpvc/?username=Pragdishwar&color=2575fc&style=flat-square&label=PROFILE+VIEWS" width="200"> |
 
 </div>
 
@@ -48,7 +45,7 @@
 
 <div align="center">
   <a href="https://github.com/Pragdishwar">
-    <img src="https://visitcount.itsvg.in/api?id=Pragdishwar&icon=0&color=12" alt="Visitor Count">
+    <img src="https://komarev.com/ghpvc/?username=Pragdishwar&color=2575fc&style=for-the-badge&logo=github" alt="Visitor Count">
   </a>
   <br/>
   <sub>Built by Pragdishwar</sub>

@@ -1,6 +1,6 @@
-<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="300" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="800" y2="200" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6a11cb"/>
       <stop offset="1" stop-color="#2575fc"/>
     </linearGradient>
@@ -11,7 +11,7 @@
       }
       @keyframes float {
         0%, 100% { transform: translateY(0); }
-        50% { transform: translateY(-7px); }
+        50% { transform: translateY(-10px); }
       }
       .wave {
         animation: move_wave 12s linear infinite;
@@ -25,43 +25,49 @@
       .title {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 800;
-        font-size: 52px;
+        font-size: 64px;
         fill: white;
-        text-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+        text-shadow: 0px 4px 20px rgba(0,0,0,0.5);
         animation: float 4s ease-in-out infinite;
       }
       .subtitle {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 400;
-        font-size: 18px;
-        fill: rgba(255, 255, 255, 0.85);
-        letter-spacing: 4px;
+        font-size: 22px;
+        fill: rgba(255, 255, 255, 0.9);
+        letter-spacing: 5px;
         text-transform: uppercase;
         animation: float 4s ease-in-out infinite;
         animation-delay: 0.2s;
       }
     </style>
+    
+    <mask id="banner_mask">
+      <path d="M0 0H800V220C700 250 600 190 500 220C400 250 300 190 200 220C100 250 0 190 0 220V0Z" fill="white"/>
+    </mask>
   </defs>
   
-  <!-- Wavy Background Shape -->
-  <path d="M0 0H800V150C700 170 600 130 500 150C400 170 300 130 200 150C100 170 0 130 0 150V0Z" fill="url(#paint0_linear_1_2)"/>
+  <!-- Main Background Container -->
+  <g mask="url(#banner_mask)">
+    <rect width="800" height="260" fill="url(#paint0_linear)"/>
+    
+    <!-- Animated Waves -->
+    <g class="wave3" opacity="0.4">
+      <path d="M0 180C200 150 400 210 600 180C800 150 1000 210 1200 180C1400 150 1600 210 1600 180V260H0V180Z" fill="#12002e"/>
+    </g>
+    
+    <g class="wave2" opacity="0.3">
+      <path d="M0 200C200 230 400 170 600 200C800 230 1000 170 1200 200C1400 230 1600 170 1600 200V260H0V200Z" fill="#001a3d"/>
+    </g>
+    
+    <g class="wave" opacity="0.2">
+      <path d="M0 220C200 190 400 250 600 220C800 190 1000 250 1200 220C1400 190 1600 250 1600 220V260H0V220Z" fill="#2575fc"/>
+    </g>
+  </g>
   
-  <!-- Content -->
+  <!-- Floating Content -->
   <g dominant-baseline="middle" text-anchor="middle">
     <text x="50%" y="40%" class="title">PRAGDISHWAR</text>
     <text x="50%" y="65%" class="subtitle">Designer | Researcher | Builder</text>
-  </g>
-  
-  <!-- Animated Waves (Now properly clipped to the background edge) -->
-  <g class="wave3" opacity="0.3">
-    <path d="M0 140C200 120 400 160 600 140C800 120 1000 160 1200 140C1400 120 1600 160 1600 140V180C1400 160 1200 200 1000 180C800 160 600 200 400 180C200 160 0 200 0 180V140Z" fill="white"/>
-  </g>
-  
-  <g class="wave2" opacity="0.2">
-    <path d="M0 150C200 170 400 130 600 150C800 170 1000 130 1200 150C1400 170 1600 130 1600 150V190C1400 170 1200 210 1000 190C800 170 600 210 400 190C200 170 0 210 0 190V150Z" fill="white"/>
-  </g>
-  
-  <g class="wave" opacity="0.1">
-    <path d="M0 160C200 140 400 180 600 160C800 140 1000 180 1200 160C1400 140 1600 180 1600 160V200C1400 180 1200 220 1000 200C800 180 600 220 400 200C200 180 0 220 0 200V160Z" fill="white"/>
   </g>
 </svg>
