@@ -65,8 +65,13 @@
 | | |
 | :---: | :---: |
 | <img src="https://github-readme-stats-eight-theta.vercel.app/api?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" width="400"> | <img src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&layout=compact" width="300"> |
-| <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pragdishwar&theme=radical&hide_border=true" width="400"> | ![Snake](https://raw.githubusercontent.com/Pragdishwar/Pragdishwar/output/github-contribution-grid-snake-dark.svg) |
+| <img src="https://github-readme-streak-stats.herokuapp.com/?user=Pragdishwar&theme=radical&hide_border=true" width="400"> | <img src="github-metrics.svg" width="400"> |
 
+</div>
+
+<div align="center">
+  <h2>🐍 Contribution Snake</h2>
+  <img src="https://raw.githubusercontent.com/Pragdishwar/Pragdishwar/output/github-contribution-grid-snake-dark.svg" alt="Snake" width="800">
 </div>
 
 <hr/>
