@@ -13,15 +13,9 @@
         0%, 100% { transform: translateY(0); }
         50% { transform: translateY(-10px); }
       }
-      .wave {
-        animation: move_wave 12s linear infinite;
-      }
-      .wave2 {
-        animation: move_wave 18s linear infinite;
-      }
-      .wave3 {
-        animation: move_wave 24s linear infinite;
-      }
+      .wave { animation: move_wave 12s linear infinite; }
+      .wave2 { animation: move_wave 18s linear infinite; }
+      .wave3 { animation: move_wave 24s linear infinite; }
       .title {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 800;
@@ -43,31 +37,27 @@
     </style>
     
     <mask id="banner_mask">
-      <path d="M0 0H800V220C700 250 600 190 500 220C400 250 300 190 200 220C100 250 0 190 0 220V0Z" fill="white"/>
+      <path d="M0 0H800V200C700 230 600 170 500 200C400 230 300 170 200 200C100 230 0 170 0 200V0Z" fill="white"/>
     </mask>
   </defs>
   
-  <!-- Main Background Container -->
   <g mask="url(#banner_mask)">
-    <rect width="800" height="260" fill="url(#paint0_linear)"/>
+    <rect width="800" height="300" fill="url(#paint0_linear)"/>
     
-    <!-- Animated Waves -->
-    <g class="wave3" opacity="0.4">
-      <path d="M0 180C200 150 400 210 600 180C800 150 1000 210 1200 180C1400 150 1600 210 1600 180V260H0V180Z" fill="#12002e"/>
+    <!-- Animated Waves (Now using light/vibrant colors for dark mode compatibility) -->
+    <g class="wave3" opacity="0.3">
+      <path d="M0 160C200 130 400 190 600 160C800 130 1000 190 1200 160C1400 130 1600 190 1600 160V300H0V160Z" fill="#8d72ff"/>
     </g>
-    
-    <g class="wave2" opacity="0.3">
-      <path d="M0 200C200 230 400 170 600 200C800 230 1000 170 1200 200C1400 230 1600 170 1600 200V260H0V200Z" fill="#001a3d"/>
+    <g class="wave2" opacity="0.2">
+      <path d="M0 180C200 210 400 150 600 180C800 210 1000 150 1200 180C1400 210 1600 150 1600 180V300H0V180Z" fill="white"/>
     </g>
-    
-    <g class="wave" opacity="0.2">
-      <path d="M0 220C200 190 400 250 600 220C800 190 1000 250 1200 220C1400 190 1600 250 1600 220V260H0V220Z" fill="#2575fc"/>
+    <g class="wave" opacity="0.1">
+      <path d="M0 200C200 170 400 230 600 200C800 170 1000 230 1200 200C1400 170 1600 230 1600 200V300H0V200Z" fill="white"/>
     </g>
   </g>
   
-  <!-- Floating Content -->
   <g dominant-baseline="middle" text-anchor="middle">
-    <text x="50%" y="40%" class="title">PRAGDISHWAR</text>
-    <text x="50%" y="65%" class="subtitle">Designer | Researcher | Builder</text>
+    <text x="50%" y="35%" class="title">PRAGDISHWAR</text>
+    <text x="50%" y="60%" class="subtitle">Designer | Researcher | Builder</text>
   </g>
 </svg>

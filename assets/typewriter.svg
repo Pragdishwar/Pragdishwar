@@ -7,19 +7,11 @@
         font-size: 22px;
         fill: #2575fc;
         visibility: hidden;
-        animation: typewriter_reveal 12s infinite steps(40);
       }
       
-      /* Each line typed over 3 seconds */
-      .text-item:nth-child(1) { animation-delay: 0s; }
-      .text-item:nth-child(2) { animation-delay: 3s; }
-      .text-item:nth-child(3) { animation-delay: 6s; }
-      .text-item:nth-child(4) { animation-delay: 9s; }
-      
-      @keyframes typewriter_reveal {
-        0% { visibility: visible; clip-path: inset(0 100% 0 0); }
-        15%, 80% { visibility: visible; clip-path: inset(0 0 0 0); }
-        85%, 100% { visibility: hidden; clip-path: inset(0 0 0 0); }
+      .reveal {
+        animation: typing 3s infinite steps(40);
+        fill: white;
       }
       
       .cursor {
@@ -27,29 +19,48 @@
         animation: cursor_move 3s infinite steps(40), blink 0.7s infinite;
       }
       
-      /* Cursor timing matches text reveal */
+      @keyframes typing {
+        0% { width: 0; }
+        20%, 85% { width: 600px; }
+        90%, 100% { width: 0; }
+      }
+      
       @keyframes cursor_move {
-        0% { transform: translateX(-180px); }
-        15%, 80% { transform: translateX(180px); }
-        85%, 100% { transform: translateX(-180px); opacity: 0; }
+        0% { transform: translateX(120px); }
+        20%, 85% { transform: translateX(480px); }
+        90%, 100% { transform: translateX(120px); }
       }
       
       @keyframes blink {
         0%, 100% { opacity: 1; }
         50% { opacity: 0; }
       }
+      
+      /* Control visibility of each line */
+      .line1 { animation: line_vis 12s infinite 0s; }
+      .line2 { animation: line_vis 12s infinite 3s; }
+      .line3 { animation: line_vis 12s infinite 6s; }
+      .line4 { animation: line_vis 12s infinite 9s; }
+      
+      @keyframes line_vis {
+        0%, 24% { visibility: visible; }
+        25%, 100% { visibility: hidden; }
+      }
     </style>
+    
+    <mask id="typing_mask">
+      <rect x="0" y="0" width="0" height="40" class="reveal" />
+    </mask>
   </defs>
   
   <rect width="600" height="40" fill="transparent"/>
   
-  <g transform="translate(300, 20)">
-    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">Fintech Builder | Earn2Equity</text>
-    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">IoT Architect | Vision-AWD</text>
-    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">Full-Stack | React &amp; Supabase</text>
-    <text x="0" y="5" dominant-baseline="middle" text-anchor="middle" class="text-item">Designer | Borderland Arena</text>
-    
-    <!-- Animated Cursor -->
-    <rect x="0" y="-12" width="3" height="24" class="cursor"/>
+  <g mask="url(#typing_mask)">
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line1">Fintech Builder | Earn2Equity</text>
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line2">IoT Architect | Vision-AWD</text>
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line3">Full-Stack | React &amp; Supabase</text>
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line4">Designer | Borderland Arena</text>
   </g>
+  
+  <rect x="0" y="10" width="3" height="24" class="cursor"/>
 </svg>
