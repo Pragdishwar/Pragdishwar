@@ -31,23 +31,24 @@
 
 <hr/>
 
-# 📊 GitHub Stats:
-![](https://github-readme-stats.vercel.app/api?username=Pragdishwar&theme=radical&hide_border=false&include_all_commits=true&count_private=true)<br/>
-![](https://nirzak-streak-stats.vercel.app/?user=Pragdishwar&theme=radical&hide_border=false)<br/>
-![](https://github-readme-stats.vercel.app/api/top-langs/?username=Pragdishwar&theme=radical&hide_border=false&include_all_commits=true&count_private=true&layout=compact)
-
-## 🏆 GitHub Trophies
-![](https://github-profile-trophy.vercel.app/?username=Pragdishwar&theme=radical&no-frame=false&no-bg=true&margin-w=4)
-
-### ✍️ Random Dev Quote
-![](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=radical)
-
-### 🔝 Top Contributed Repo
-![](https://github-contributor-stats.vercel.app/api?username=Pragdishwar&limit=5&theme=radical&combine_all_yearly_contributions=true)
-
----
 <div align="center">
-  [![](https://visitcount.itsvg.in/api?id=Pragdishwar&icon=0&color=0)](https://visitcount.itsvg.in)
+  <h2>📊 Activity Dashboard</h2>
+  <img src="https://github-readme-stats.vercel.app/api?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&include_all_commits=true&count_private=true" alt="Main Stats" width="400">
+  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Pragdishwar&theme=radical&show_icons=true&hide_border=true&layout=compact" alt="Top Langs" width="300">
   <br/>
-  <sub>Built with ❤️ by Pragdishwar | 2026</sub>
+  <img src="https://nirzak-streak-stats.vercel.app/?user=Pragdishwar&theme=radical&hide_border=true" alt="Streak Stats">
+  <br/>
+  <img src="https://github-profile-trophy.vercel.app/?username=Pragdishwar&theme=radical&no-frame=false&no-bg=true&margin-w=4" alt="Trophies">
+  <br/><br/>
+  <img src="https://github-contributor-stats.vercel.app/api?username=Pragdishwar&limit=5&theme=radical&combine_all_yearly_contributions=true" alt="Top Contributions" width="400">
+</div>
+
+<hr/>
+
+<div align="center">
+  <a href="https://github.com/Pragdishwar">
+    <img src="https://visitcount.itsvg.in/api?id=Pragdishwar&icon=0&color=12" alt="Visitor Count">
+  </a>
+  <br/>
+  <sub>Built by Pragdishwar</sub>
 </div>

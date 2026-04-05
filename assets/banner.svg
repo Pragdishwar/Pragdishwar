@@ -1,6 +1,6 @@
-<svg width="800" height="200" viewBox="0 0 800 200" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="240" viewBox="0 0 800 240" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="800" y2="200" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint0_linear_1_2" x1="0" y1="0" x2="800" y2="240" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6a11cb"/>
       <stop offset="1" stop-color="#2575fc"/>
     </linearGradient>
@@ -9,51 +9,59 @@
         0% { transform: translateX(0); }
         100% { transform: translateX(-50%); }
       }
+      @keyframes float {
+        0%, 100% { transform: translateY(0); }
+        50% { transform: translateY(-7px); }
+      }
       .wave {
-        animation: move_wave 10s linear infinite;
+        animation: move_wave 12s linear infinite;
       }
       .wave2 {
-        animation: move_wave 15s linear infinite;
+        animation: move_wave 18s linear infinite;
       }
       .wave3 {
-        animation: move_wave 20s linear infinite;
+        animation: move_wave 24s linear infinite;
       }
       .title {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 800;
-        font-size: 48px;
+        font-size: 52px;
         fill: white;
-        text-shadow: 0px 4px 10px rgba(0,0,0,0.3);
+        text-shadow: 0px 4px 15px rgba(0,0,0,0.4);
+        animation: float 4s ease-in-out infinite;
       }
       .subtitle {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 400;
         font-size: 18px;
-        fill: rgba(255, 255, 255, 0.8);
-        letter-spacing: 2px;
+        fill: rgba(255, 255, 255, 0.85);
+        letter-spacing: 4px;
+        text-transform: uppercase;
+        animation: float 4s ease-in-out infinite;
+        animation-delay: 0.2s;
       }
     </style>
   </defs>
   
-  <!-- Background -->
-  <rect width="800" height="200" fill="url(#paint0_linear_1_2)"/>
+  <!-- Wavy Background Shape -->
+  <path d="M0 0H800V180C700 200 600 160 500 180C400 200 300 160 200 180C100 200 0 160 0 180V0Z" fill="url(#paint0_linear_1_2)"/>
   
   <!-- Content -->
-  <text x="50%" y="45%" dominant-baseline="middle" text-anchor="middle" class="title">PRAGDISHWAR</text>
-  <text x="50%" y="70%" dominant-baseline="middle" text-anchor="middle" class="subtitle">BUILDING THE FUTURE OF FINTECH &amp; IOT</text>
+  <g dominant-baseline="middle" text-anchor="middle">
+    <text x="50%" y="40%" class="title">PRAGDISHWAR</text>
+    <text x="50%" y="65%" class="subtitle">Designer | Researcher | Builder</text>
+  </g>
   
-  <!-- Waves Layer 1 -->
+  <!-- Animated Waves Over the Bottom Edge -->
   <g class="wave3" opacity="0.3">
-    <path d="M0 160C200 140 400 180 600 160C800 140 1000 180 1200 160C1400 140 1600 180 1600 160V200H0V160Z" fill="white"/>
+    <path d="M0 170C200 150 400 190 600 170C800 150 1000 190 1200 170C1400 150 1600 190 1600 170V240H0V170Z" fill="white"/>
   </g>
   
-  <!-- Waves Layer 2 -->
   <g class="wave2" opacity="0.2">
-    <path d="M0 170C200 190 400 150 600 170C800 190 1000 150 1200 170C1400 190 1600 150 1600 170V200H0V170Z" fill="white"/>
+    <path d="M0 180C200 200 400 160 600 180C800 200 1000 160 1200 180C1400 200 1600 160 1600 180V240H0V180Z" fill="white"/>
   </g>
   
-  <!-- Waves Layer 3 -->
   <g class="wave" opacity="0.1">
-    <path d="M0 180C200 160 400 200 600 180C800 160 1000 200 1200 180C1400 160 1600 200 1600 180V200H0V180Z" fill="white"/>
+    <path d="M0 190C200 170 400 210 600 190C800 170 1000 210 1200 190C1400 170 1600 210 1600 190V240H0V190Z" fill="white"/>
   </g>
 </svg>
