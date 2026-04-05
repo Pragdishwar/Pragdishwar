@@ -1,6 +1,6 @@
-<svg width="800" height="300" viewBox="0 0 800 300" fill="none" xmlns="http://www.w3.org/2000/svg">
+<svg width="800" height="260" viewBox="0 0 800 260" fill="none" xmlns="http://www.w3.org/2000/svg">
   <defs>
-    <linearGradient id="paint0_linear" x1="0" y1="0" x2="800" y2="300" gradientUnits="userSpaceOnUse">
+    <linearGradient id="paint0_linear" x1="0" y1="0" x2="800" y2="260" gradientUnits="userSpaceOnUse">
       <stop stop-color="#6a11cb"/>
       <stop offset="1" stop-color="#2575fc"/>
     </linearGradient>
@@ -19,7 +19,7 @@
       .title {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 800;
-        font-size: 64px;
+        font-size: 60px;
         fill: white;
         text-shadow: 0px 4px 20px rgba(0,0,0,0.5);
         animation: float 4s ease-in-out infinite;
@@ -27,7 +27,7 @@
       .subtitle {
         font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
         font-weight: 400;
-        font-size: 22px;
+        font-size: 20px;
         fill: rgba(255, 255, 255, 0.9);
         letter-spacing: 5px;
         text-transform: uppercase;
@@ -42,17 +42,17 @@
   </defs>
   
   <g mask="url(#banner_mask)">
-    <rect width="800" height="300" fill="url(#paint0_linear)"/>
+    <rect width="800" height="260" fill="url(#paint0_linear)"/>
     
-    <!-- Animated Waves (Now using light/vibrant colors for dark mode compatibility) -->
+    <!-- Animated Waves -->
     <g class="wave3" opacity="0.3">
-      <path d="M0 160C200 130 400 190 600 160C800 130 1000 190 1200 160C1400 130 1600 190 1600 160V300H0V160Z" fill="#8d72ff"/>
+      <path d="M0 160C200 130 400 190 600 160C800 130 1000 190 1200 160C1400 130 1600 190 1600 160V260H0V160Z" fill="#8d72ff"/>
     </g>
     <g class="wave2" opacity="0.2">
-      <path d="M0 180C200 210 400 150 600 180C800 210 1000 150 1200 180C1400 210 1600 150 1600 180V300H0V180Z" fill="white"/>
+      <path d="M0 180C200 210 400 150 600 180C800 210 1000 150 1200 180C1400 210 1600 150 1600 180V260H0V180Z" fill="white"/>
     </g>
     <g class="wave" opacity="0.1">
-      <path d="M0 200C200 170 400 230 600 200C800 170 1000 230 1200 200C1400 170 1600 230 1600 200V300H0V200Z" fill="white"/>
+      <path d="M0 200C200 170 400 230 600 200C800 170 1000 230 1200 200C1400 170 1600 230 1600 200V260H0V200Z" fill="white"/>
     </g>
   </g>
   
