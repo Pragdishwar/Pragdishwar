@@ -16,8 +16,8 @@
 <hr/>
 
 # 💫 About Me:
-* 🔭 **I’m currently working on** an automated IoT plant irrigation system using an ESP32-CAM, and developing a fintech platform called [**Earn2Equity**](https://github.com/Pragdishwar/earn2equity).
-* 👯 **I’m looking to collaborate on** full-stack React and Supabase applications, cloud-based route optimizers (like [**RouteMonk**](https://github.com/Pragdishwar/RouteMonk)), or creative hackathon projects.
+* 🔭 **I’m currently working on** an AI cargo verification system called [**Argus**](https://github.com/Pragdishwar/Argus), and a smart queue management app called [**Equeue**](https://github.com/Pragdishwar/Equeue).
+* 👯 **I’m looking to collaborate on** full-stack Next.js and Supabase applications, zero-shot AI models (like [**Anomaly Grammar**](https://github.com/Pragdishwar/Anomaly-Grammar)), or creative hackathon projects.
 * 🤝 **I’m looking for help with** mastering Agent-First frontend development using Google's Antigravity IDE.
 * 🌱 **I’m currently learning** Japanese, machine learning concepts, data analytics, and theory of computation.
 * 💬 **Ask me about** organizing large-scale tech/cultural events (like [**Borderland Arena**](https://github.com/Pragdishwar/borderland-arena) and Hikari no Matsuri), logo design, or working with microcontrollers.
@@ -29,18 +29,18 @@
 
 | | |
 | :--- | :--- |
-| **[Earn2Equity](https://github.com/Pragdishwar/earn2equity)** <br/> _Fintech Equity Tracker_ <br/> 🛠️ `React` `Tailwind` | **[Vision-AWD](https://github.com/Pragdishwar/Vision-AWD)** <br/> _IoT Irrigation System_ <br/> 🛠️ `C++` `Python` `ESP32-CAM` |
-| **[RouteMonk](https://github.com/Pragdishwar/RouteMonk)** <br/> _Logistics Optimizer_ <br/> 🛠️ `FastAPI` `React` `Mapbox` | **[Borderland Arena](https://github.com/Pragdishwar/borderland-arena)** <br/> _Gaming Live Dashboard_ <br/> 🛠️ `React` `WebSocket` `CSS3` |
+| **[Argus](https://github.com/Pragdishwar/Argus)** <br/> _AI Cargo Verification_ <br/> 🛠️ `Next.js` `Python` `Supabase` | **[Equeue](https://github.com/Pragdishwar/Equeue)** <br/> _Smart Queue Management_ <br/> 🛠️ `Flutter` `Dart` `Supabase` |
+| **[Anomaly Grammar](https://github.com/Pragdishwar/Anomaly-Grammar)** <br/> _Cross-Domain Anomaly Transfer_ <br/> 🛠️ `FastAPI` `React` `Python` | **[Earn2Equity](https://github.com/Pragdishwar/earn2equity)** <br/> _Fintech Equity Tracker_ <br/> 🛠️ `React` `Tailwind` |
 
 ---
 
 # 💻 Tech Stack:
 
 ### 🚀 Languages & Core
-![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
 ### ⚛️ Frontend & Design
-![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
+![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
 
 ### ⚡ Backend & Cloud
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
@@ -48,8 +48,8 @@
 ### 🤖 Hardware & IoT
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![PlatformIO](https://img.shields.io/badge/PlatformIO-%23222.svg?style=for-the-badge&logo=platformio&logoColor=%23f5822a) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
 
-### 📊 Data & Analytics
-![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
+### 🧠 AI, Data & Analytics
+![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
 ### 📂 Tools & Dev Environment
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)

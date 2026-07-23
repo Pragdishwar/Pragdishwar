@@ -56,10 +56,10 @@
   <rect width="600" height="40" fill="transparent"/>
   
   <g mask="url(#typing_mask)">
-    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line1">Fintech Builder | Earn2Equity</text>
-    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line2">IoT Architect | Vision-AWD</text>
-    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line3">Full-Stack | React &amp; Supabase</text>
-    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line4">Designer | Borderland Arena</text>
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line1">Computer Vision | Argus</text>
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line2">Cross-Platform | Equeue</text>
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line3">Full-Stack | Next.js &amp; Supabase</text>
+    <text x="50%" y="24" dominant-baseline="middle" text-anchor="middle" class="text-item line4">Zero-Shot AI | Anomaly Grammar</text>
   </g>
   
   <rect x="0" y="10" width="3" height="24" class="cursor"/>
