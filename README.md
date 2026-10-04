@@ -16,10 +16,10 @@
 <hr/>
 
 # 💫 About Me:
-* 🔭 **I’m currently working on** an AI cargo verification system called [**Argus**](https://github.com/Pragdishwar/Argus), and a smart queue management app called [**Equeue**](https://github.com/Pragdishwar/Equeue).
+* 🔭 **I’m currently working on** an agentic marine advisory platform called [**ORCA**](https://github.com/Pragdishwar/ORCA), a smart queue management app called [**Equeue**](https://github.com/Pragdishwar/Equeue), and a route optimization app called [**Routemonk Pro**](https://github.com/Pragdishwar/Routemonk-Pro).
 * 👯 **I’m looking to collaborate on** full-stack Next.js and Supabase applications, zero-shot AI models (like [**Anomaly Grammar**](https://github.com/Pragdishwar/Anomaly-Grammar)), or creative hackathon projects.
 * 🤝 **I’m looking for help with** mastering Agent-First frontend development using Google's Antigravity IDE.
-* 🌱 **I’m currently learning** Japanese, machine learning concepts, data analytics, and theory of computation.
+* 🌱 **I’m currently learning** advanced Japanese (Completed JLPT N4 🏆), machine learning concepts, data analytics, and theory of computation.
 * 💬 **Ask me about** organizing large-scale tech/cultural events (like [**Borderland Arena**](https://github.com/Pragdishwar/borderland-arena) and Hikari no Matsuri), logo design, or working with microcontrollers.
 * ⚡ **Fun fact:** I design tech-themed forensic mystery games like "Digital Archaeology" in my spare time!
 
@@ -29,8 +29,8 @@
 
 | | |
 | :--- | :--- |
-| **[Argus](https://github.com/Pragdishwar/Argus)** <br/> _AI Cargo Verification_ <br/> 🛠️ `Next.js` `Python` `Supabase` | **[Equeue](https://github.com/Pragdishwar/Equeue)** <br/> _Smart Queue Management_ <br/> 🛠️ `Flutter` `Dart` `Supabase` |
-| **[Anomaly Grammar](https://github.com/Pragdishwar/Anomaly-Grammar)** <br/> _Cross-Domain Anomaly Transfer_ <br/> 🛠️ `FastAPI` `React` `Python` | **[Earn2Equity](https://github.com/Pragdishwar/earn2equity)** <br/> _Fintech Equity Tracker_ <br/> 🛠️ `React` `Tailwind` |
+| **[ORCA](https://github.com/Pragdishwar/ORCA)** <br/> _Marine Advisory Platform_ <br/> 🛠️ `React` `Python` `Supabase` | **[Equeue](https://github.com/Pragdishwar/Equeue)** <br/> _Smart Queue Management_ <br/> 🛠️ `Flutter` `Dart` `Supabase` |
+| **[Routemonk Pro](https://github.com/Pragdishwar/Routemonk-Pro)** <br/> _Advanced Route Optimization_ <br/> 🛠️ `Vite` `Tailwind` `Firebase` | **[Anomaly Grammar](https://github.com/Pragdishwar/Anomaly-Grammar)** <br/> _Cross-Domain Anomaly Transfer_ <br/> 🛠️ `FastAPI` `React` `Python` |
 
 ---
 
