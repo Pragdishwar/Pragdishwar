@@ -13,51 +13,64 @@
   </a>
 </div>
 
-<hr/>
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
 
-# 💫 About Me:
-* 🔭 **I’m currently working on** an agentic marine advisory platform called [**ORCA**](https://github.com/Pragdishwar/ORCA), a smart queue management app called [**Equeue**](https://github.com/Pragdishwar/Equeue), and a route optimization app called [**Routemonk Pro**](https://github.com/Pragdishwar/Routemonk-Pro).
-* 👯 **I’m looking to collaborate on** full-stack Next.js and Supabase applications, zero-shot AI models (like [**Anomaly Grammar**](https://github.com/Pragdishwar/Anomaly-Grammar)), or creative hackathon projects.
-* 🤝 **I’m looking for help with** mastering Agent-First frontend development using Google's Antigravity IDE.
-* 🌱 **I’m currently learning** advanced Japanese (Completed JLPT N4 🏆), machine learning concepts, data analytics, and theory of computation.
-* 💬 **Ask me about** organizing large-scale tech/cultural events (like [**Borderland Arena**](https://github.com/Pragdishwar/borderland-arena) and Hikari no Matsuri), logo design, or working with microcontrollers.
-* ⚡ **Fun fact:** I design tech-themed forensic mystery games like "Digital Archaeology" in my spare time!
+<h2 align="center">💫 About Me</h2>
 
----
+<div align="center">
+  <p>
+    🔭 <b>I’m currently working on</b> an agentic marine advisory platform called <a href="https://github.com/Pragdishwar/ORCA"><b>ORCA</b></a>, a smart queue management app called <a href="https://github.com/Pragdishwar/Equeue"><b>Equeue</b></a>, and a route optimization app called <a href="https://github.com/Pragdishwar/Routemonk-Pro"><b>Routemonk Pro</b></a>.<br/>
+    👯 <b>I’m looking to collaborate on</b> full-stack Next.js and Supabase applications, zero-shot AI models (like <a href="https://github.com/Pragdishwar/Anomaly-Grammar"><b>Anomaly Grammar</b></a>), or creative hackathon projects.<br/>
+    🤝 <b>I’m looking for help with</b> mastering Agent-First frontend development using Google's Antigravity IDE.<br/>
+    🌱 <b>I’m currently learning</b> advanced Japanese (Completed JLPT N4 🏆), machine learning concepts, data analytics, and theory of computation.<br/>
+    💬 <b>Ask me about</b> organizing large-scale tech/cultural events (like <a href="https://github.com/Pragdishwar/borderland-arena"><b>Borderland Arena</b></a> and Hikari no Matsuri), logo design, or working with microcontrollers.<br/>
+    ⚡ <b>Fun fact:</b> I design tech-themed forensic mystery games like "Digital Archaeology" in my spare time!
+  </p>
+</div>
 
-# 📂 Featured Projects:
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
+
+<h2 align="center">📂 Featured Projects</h2>
+
+<div align="center">
 
 | | |
 | :--- | :--- |
 | **[ORCA](https://github.com/Pragdishwar/ORCA)** <br/> _Marine Advisory Platform_ <br/> 🛠️ `React` `Python` `Supabase` | **[Equeue](https://github.com/Pragdishwar/Equeue)** <br/> _Smart Queue Management_ <br/> 🛠️ `Flutter` `Dart` `Supabase` |
 | **[Routemonk Pro](https://github.com/Pragdishwar/Routemonk-Pro)** <br/> _Advanced Route Optimization_ <br/> 🛠️ `Vite` `Tailwind` `Firebase` | **[Anomaly Grammar](https://github.com/Pragdishwar/Anomaly-Grammar)** <br/> _Cross-Domain Anomaly Transfer_ <br/> 🛠️ `FastAPI` `React` `Python` |
 
----
+</div>
 
-# 💻 Tech Stack:
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
 
-### 🚀 Languages & Core
+<h2 align="center">💻 Tech Stack</h2>
+
+<div align="center">
+
+**🚀 Languages & Core**<br/>
 ![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white) ![Python](https://img.shields.io/badge/python-3670A0?style=for-the-badge&logo=python&logoColor=ffdd54) ![Dart](https://img.shields.io/badge/dart-%230175C2.svg?style=for-the-badge&logo=dart&logoColor=white) ![C++](https://img.shields.io/badge/c++-%2300599C.svg?style=for-the-badge&logo=c%2B%2B&logoColor=white) ![Java](https://img.shields.io/badge/java-%23ED8B00.svg?style=for-the-badge&logo=openjdk&logoColor=white) ![JavaScript](https://img.shields.io/badge/javascript-%23F7DF1E.svg?style=for-the-badge&logo=javascript&logoColor=black)
 
-### ⚛️ Frontend & Design
+<br/>**⚛️ Frontend & Design**<br/>
 ![Next JS](https://img.shields.io/badge/Next-black?style=for-the-badge&logo=next.js&logoColor=white) ![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB) ![Flutter](https://img.shields.io/badge/Flutter-%2302569B.svg?style=for-the-badge&logo=Flutter&logoColor=white) ![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white) ![Canva](https://img.shields.io/badge/Canva-%2300C4CC.svg?style=for-the-badge&logo=Canva&logoColor=white) ![Gimp](https://img.shields.io/badge/Gimp-657D8B?style=for-the-badge&logo=gimp&logoColor=FFFFFF)
 
-### ⚡ Backend & Cloud
+<br/>**⚡ Backend & Cloud**<br/>
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi) ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white) ![Postgres](https://img.shields.io/badge/postgres-%23316192.svg?style=for-the-badge&logo=postgresql&logoColor=white) ![Vercel](https://img.shields.io/badge/vercel-%23000000.svg?style=for-the-badge&logo=vercel&logoColor=white) ![Render](https://img.shields.io/badge/Render-%46E3B7.svg?style=for-the-badge&logo=render&logoColor=white) ![Firebase](https://img.shields.io/badge/firebase-a08021?style=for-the-badge&logo=firebase&logoColor=ffcd34) ![MySQL](https://img.shields.io/badge/mysql-4479A1.svg?style=for-the-badge&logo=mysql&logoColor=white)
 
-### 🤖 Hardware & IoT
+<br/>**🤖 Hardware & IoT**<br/>
 ![Arduino](https://img.shields.io/badge/-Arduino-00979D?style=for-the-badge&logo=Arduino&logoColor=white) ![PlatformIO](https://img.shields.io/badge/PlatformIO-%23222.svg?style=for-the-badge&logo=platformio&logoColor=%23f5822a) ![Cisco](https://img.shields.io/badge/cisco-%23049fd9.svg?style=for-the-badge&logo=cisco&logoColor=black)
 
-### 🧠 AI, Data & Analytics
+<br/>**🧠 AI, Data & Analytics**<br/>
 ![OpenCV](https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white) ![Pandas](https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white) ![Matplotlib](https://img.shields.io/badge/Matplotlib-%23ffffff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black)
 
-### 📂 Tools & Dev Environment
+<br/>**📂 Tools & Dev Environment**<br/>
 ![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white) ![NPM](https://img.shields.io/badge/NPM-%23CB3837.svg?style=for-the-badge&logo=npm&logoColor=white)
 
-### 🎮 Gaming & Entertainment
+<br/>**🎮 Gaming & Entertainment**<br/>
 ![Epic Games](https://img.shields.io/badge/epicgames-%23313131.svg?style=for-the-badge&logo=epicgames&logoColor=white) ![Riot Games](https://img.shields.io/badge/riotgames-D32936.svg?style=for-the-badge&logo=riotgames&logoColor=white) ![PlayStation Network](https://img.shields.io/badge/PSN-%230070D1.svg?style=for-the-badge&logo=Playstation&logoColor=white)
 
----
+</div>
+
+<img src="https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/rainbow.png" width="100%" alt="divider" />
 
 <div align="center">
   <h2>📊 Activity Dashboard</h2>
